@@ -24,3 +24,8 @@ dist-ssr
 *.sw?
 
 apikey.js
+Aplicacion-del-clima.png
+postcss.config.js
+.eslintrc.cjs
+tailwind.config.js
+vite.config.js
