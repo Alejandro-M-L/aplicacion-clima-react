@@ -1,8 +1,8 @@
 import { useState } from "react";
-
+import WEATHER_API_KEY from './apikey.js'
 export const WheaterApp = () => {
   const urlBase = "https://api.openweathermap.org/data/2.5/weather";
-  const API_KEY = '9d68c0f4164c2578fd2ee250fc9f305d';
+  const API_KEY = WEATHER_API_KEY
   const difKelvin = 273.15
   const [ciudad, setCiudad] = useState("");
   const [dataClima, setDataClima] = useState(null);
